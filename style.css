@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.body {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.popup {
+
+
+    width: 490px;
+    border-radius: 5px;
+    padding: 40px 20px 20px 20px;
+    box-shadow: 0 10px 25px rgba(95, 7, 26, 0.1);
+    border-top: 3px solid #5372F0;
+    background-color: white;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.green {
+    color: #00cf3e;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.wifi {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.reconnect:active {
+    transform: translate(0px, 2px);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.loading-con {
+
+
+    max-width: 200px;
+    width: 100%;
+    height: 100px;
+
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #00cf3e;
+}
+
+.red {
+    color: red;
+}
+
+.contai {
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 1.05rem;
+    color: #474747;
+    margin: 3px 0 10px;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+
+}
+
+.loading-con {
+    text-align: center;
+}
+
+.reconnect {
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.95rem;
+    PADDING: 9px 15px;
+    border-radius: 4px;
+    background-color: #5372F0;
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contacts__button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contacts__button_type_tg {
+    background-image: url('https://habrastorage.org/getpro/habr/upload_files/e63/fa8/8fe/e63fa88fee2a0c030c5bac0e2fe6cb90.png');
+}
+
+.contacts__button_type_gh {
+    background-image: url('https://matob.web.id/random/wp-content/uploads/sites/2/2021/12/GitHub.jpg');
+}
