@@ -15,9 +15,8 @@
 }
 
 .popup {
-
-
-    width: 490px;
+    max-width: 490px;
+    width: 100%;
     border-radius: 5px;
     padding: 40px 20px 20px 20px;
     box-shadow: 0 10px 25px rgba(95, 7, 26, 0.1);
@@ -52,12 +51,9 @@
 }
 
 .loading-con {
-
-
     max-width: 200px;
     width: 100%;
     height: 100px;
-
 }
 
 .title {
@@ -82,7 +78,6 @@
 .loading {
     width: 100%;
     height: 100%;
-
 }
 
 .loading-con {
@@ -96,13 +91,19 @@
     outline: none;
     color: white;
     font-size: 0.95rem;
-    PADDING: 9px 15px;
+    PADDING: 12px 35px;
     border-radius: 4px;
     background-color: #5372F0;
 }
 
+.reconnect:hover {
+    transition: .2s;
+    opacity: 0.9;
+}
+
 .contacts {
     display: flex;
+    justify-content: flex-start;
     gap: 20px;
     margin-top: 20px;
 }
@@ -115,6 +116,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+}
+
+.contacts__button:hover {
+    transition: .2s;
+    opacity: 0.8;
 }
 
 .contacts__button_type_tg {
